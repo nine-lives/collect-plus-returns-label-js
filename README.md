@@ -4,8 +4,8 @@
 
 Download:
  
-1. [The Collect+ returns label script](https://github.com/nine-lives/collect-plus-return-labels-js/collect-plus-returns-label.min.js) 
-1. [The JsBarcode combined script](https://github.com/lindell/JsBarcode/releases/tag/1.6.1)
+1. [The Collect+ returns label script](https://raw.githubusercontent.com/nine-lives/collect-plus-return-labels-js/master/collect-plus-returns-label.min.js) 
+1. [The JsBarcode combined script](https://github.com/lindell/JsBarcode/releases/download/1.6.1/JsBarcode.all.min.js)
 
 Include the scripts:
 
@@ -81,7 +81,7 @@ The library will bootstrap any element with the class ```cp_returns_label```. Th
 
 ## And an example...
 
-... [can be found here](#)
+... [can be found here](http://9ls.com/collect-plus-return-labels-js/)
 
 
 
