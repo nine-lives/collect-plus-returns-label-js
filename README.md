@@ -61,22 +61,23 @@ Style the button / link however you want. That's it.
 
 The library will bootstrap any element with the class ```cp_returns_label```. The data attributes do the following:
 
-|Attribute|Optional|Format|Description|
-|---|---|---|
-|data-address-1|No|Max 50 characters in length|Returns centre address line 1|
-|data-address-2|Yes|Max 50 characters in length|Returns centre address line 2|
-|data-address-3|Yes|Max 50 characters in length|Returns centre address line 3|
-|data-address-4|Yes|Max 50 characters in length|Returns centre address line 4|
-|data-address-postcode|No|Max 14 characters in length|Returns centre postcode|
-|data-center-name|No|Max 50 characters in length|The returns centre name|
-|data-client-name|No|N/A|Your company name|
-|data-depot-number|No|2 digits|The route depot number as supplied by Collect+|
-|data-depot-short|No|4 characters|The depot short name as supplied by Collect+|
-|data-label-date|Yes|Format: dd/mm/yyyy|The date the label was generated. If not supplied then today's date is supplied|
-|data-returns-reference|Yes|N/A|Optional field for you to supply any reference number such as the customer order number|
-|data-sequence|No|1 to 8 numeric digits|The next available sequence number for the TAC|
-|data-service|No|Max 9 characters in length|The service code as supplied by Collect+|
-|data-tac|No|3 characters|The tracking account code as supplied by Collect+|
+| Attribute              | Optional | Format                      | Description                                                                             |
+|------------------------|----------|-----------------------------|-----------------------------------------------------------------------------------------|
+| data-address-1         | No       | Max 50 characters in length | Returns centre address line 1                                                           |
+| data-address-2         | Yes      | Max 50 characters in length | Returns centre address line 2                                                           |
+| data-address-3         | Yes      | Max 50 characters in length | Returns centre address line 3                                                           |
+| data-address-4         | Yes      | Max 50 characters in length | Returns centre address line 4                                                           |
+| data-address-postcode  | No       | Max 14 characters in length | Returns centre postcode                                                                 |
+| data-center-name       | No       | Max 50 characters in length | The returns centre name                                                                 |
+| data-client-name       | No       | N/A                         | Your company name                                                                       |
+| data-depot-number      | No       | 2 digits                    | The route depot number as supplied by Collect+                                          |
+| data-depot-short       | No       | 4 characters                | The depot short name as supplied by Collect+                                            |
+| data-label-date        | Yes      | Format: dd/mm/yyyy          | The date the label was generated. If not supplied then today's date is supplied         |
+| data-returns-reference | Yes      | N/A                         | Optional field for you to supply any reference number such as the customer order number |
+| data-sequence          | No       | 1 to 8 numeric digits       | The next available sequence number for the TAC                                          |
+| data-service           | No       | Max 9 characters in length  | The service code as supplied by Collect+                                                |
+| data-tac               | No       | 3 characters                | The tracking account code as supplied by Collect+                                       |
+
 
 ## And an example...
 
