@@ -1,95 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="collect plus returns label library">
+
     <title>Collect+ Plus Returns Label By Nine Lives Software</title>
     <style>
-        body {
-            margin: 20px;
-            font-size: 16px;
-            font-family: Helvetica, Arial, sans-serif;
-        }
+
         button {
-            font-size: 16px;
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: Raleway,sans-serif;
+            font-size: 20px;
         }
         pre {
-            background: #ddd;
+            background: #eee;
             padding: 10px;
+            font-size: 12px;
         }
 
+        .main {
+            padding-top: 10px !important;
+        }
+
+        .cp_returns_label {
+            float: right;
+        }
+
+        p a {
+            color: #446b12;
+            text-decoration: underline;
+        }
     </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://9ls.com/css/miaow.min.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
-<h1>Collect+ Plus Returns Label Printer</h1>
-
-
-<div class="example">
-    <h2>The print label as a link</h2>
-
-    <div>
-        <a href="#" class="cp_returns_label"
-           data-client-name="Client Ltd"
-           data-tac="83K"
-           data-sequence="7116"
-           data-depot-number="51"
-           data-depot-short="ABCT"
-           data-service="72 HR"
-           data-label-date="19/01/2016"
-           data-returns-reference="10456-123-123"
-           data-center-name="Returns Name"
-           data-address-1="Returns Warehouse"
-           data-address-2="Returns Close"
-           data-address-3="Returns Town"
-           data-address-4="Returns County"
-           data-address-postcode="AB1 1BA">Print Collect+ Label</a>
-    </div>
-
-    <pre>
-&lt;a href="#" class="cp_returns_label"
-   data-client-name="Client Ltd"
-   data-tac="83K"
-   data-sequence="7116"
-   data-depot-number="51"
-   data-depot-short="ABCT"
-   data-service="72 HR"
-   data-label-date="19/01/2016"
-   data-returns-reference="10456-123-123"
-   data-center-name="Returns Name"
-   data-address-1="Returns Warehouse"
-   data-address-2="Returns Close"
-   data-address-3="Returns Town"
-   data-address-4="Returns County"
-   data-address-postcode="AB1 1BA"&gt;Print Collect+ Label&lt;/a&gt;
-
-
-&lt;script src="JsBarcode.all.min.js"&gt;&lt;/script&gt;
-&lt;script src="collect-plus-returns-label.min.js"&gt;&lt;/script&gt;
-    </pre>
-</div>
-
-<div class="example">
-    <h2>The print label as a button</h2>
-
-    <button href="#" class="cp_returns_label"
-            data-client-name="Client Ltd"
-            data-tac="83K"
-            data-sequence="7116"
-            data-depot-number="51"
-            data-depot-short="ABCT"
-            data-service="72 HR"
-            data-label-date="19/01/2016"
-            data-returns-reference="10456-123-123"
-            data-center-name="Returns Name"
-            data-address-1="Returns Warehouse"
-            data-address-2="Returns Close"
-            data-address-3="Returns Town"
-            data-address-4="Returns County"
-            data-address-postcode="AB1 1BA">Print Collect+ Label
-    </button>
-
-    <pre>
+<div class="main">
+    <div id="fg">
+        <img src="http://9ls.com/img/logo-430x150-bt.png" alt="Welcome to NineLives Software"/>
+        <div class="section" id="description">
+            <h1>Collect+ Plus Returns Label Printer Javascript Library Examples</h1>
+            <div class="row">
+                <p style="float:none;">
+                    As a button:
+                    <button class="cp_returns_label"
+                                             data-client-name="Client Ltd"
+                                             data-tac="83K"
+                                             data-sequence="7116"
+                                             data-depot-number="51"
+                                             data-depot-short="ABCT"
+                                             data-service="72 HR"
+                                             data-label-date="19/01/2016"
+                                             data-returns-reference="10456-123-123"
+                                             data-center-name="Returns Name"
+                                             data-address-1="Returns Warehouse"
+                                             data-address-2="Returns Close"
+                                             data-address-3="Returns Town"
+                                             data-address-4="Returns County"
+                                             data-address-postcode="AB1 1BA">Print Collect+ Label</button>
+                </p>
+                <div>
+                    <pre><code>
 &lt;button class="cp_returns_label"
    data-client-name="Client Ltd"
    data-tac="83K"
@@ -106,14 +78,79 @@
    data-address-4="Returns County"
    data-address-postcode="AB1 1BA"&gt;Print Collect+ Label&lt;/button&gt;
 
+&lt;script src="JsBarcode.all.min.js"&gt;&lt;/script&gt;
+&lt;script src="collect-plus-returns-label.min.js"&gt;&lt;/script&gt;
+            </code></pre>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <p style="float:none;">
+                    As a link:
+                    <a href="#" class="cp_returns_label"
+                            data-client-name="Client Ltd"
+                            data-tac="83K"
+                            data-sequence="7116"
+                            data-depot-number="51"
+                            data-depot-short="ABCT"
+                            data-service="72 HR"
+                            data-label-date="19/01/2016"
+                            data-returns-reference="10456-123-123"
+                            data-center-name="Returns Name"
+                            data-address-1="Returns Warehouse"
+                            data-address-2="Returns Close"
+                            data-address-3="Returns Town"
+                            data-address-4="Returns County"
+                            data-address-postcode="AB1 1BA">Print Collect+ Label</a>
+                </p>
+                <div>
+                    <pre><code>
+&lt;a href="#" class="cp_returns_label"
+    data-client-name="Client Ltd"
+    data-tac="83K"
+    data-sequence="7116"
+    data-depot-number="51"
+    data-depot-short="ABCT"
+    data-service="72 HR"
+    data-label-date="19/01/2016"
+    data-returns-reference="10456-123-123"
+    data-center-name="Returns Name"
+    data-address-1="Returns Warehouse"
+    data-address-2="Returns Close"
+    data-address-3="Returns Town"
+    data-address-4="Returns County"
+    data-address-postcode="AB1 1BA"&gt;Print Collect+ Label&lt;/a&gt;
 
 &lt;script src="JsBarcode.all.min.js"&gt;&lt;/script&gt;
 &lt;script src="collect-plus-returns-label.min.js"&gt;&lt;/script&gt;
-    </pre>
+                    </code></pre>
 
+                </div>
+            </div>
+            <div class="row">
+                <p><a href="https://github.com/nine-lives/collect-plus-return-labels-js">Back to the project pages</a></p>
+            </div>
+        </div>
+        <footer style="clear:both">
+            Copyright &copy;
+            <span>Nine Lives Software</span> Ltd.
+                <span>
+                    <span>25 Chaucer Road</span>,
+                    <span>Bedford</span>,
+                    <span>MK40 2AL</span>.
+                </span><br/>
+            Registered in England & Wales No. 08369199, VAT No. <span>GB 225 3083 34</span>
+        </footer>
+    </div>
+    <div id="bg"></div>
 </div>
+
+
+
 <script src="JsBarcode.all.min.js"></script>
 <script src="collect-plus-returns-label.min.js"></script>
+<script src="http://9ls.com/js/miaow.min.js"></script>
 
 </body>
 </html>
