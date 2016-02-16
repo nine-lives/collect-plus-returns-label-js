@@ -1,6 +1,6 @@
 {
   "name": "CollectPlusReturnsLabelJs",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "dist/collect-plus-returns-label.js",
   "homepage": "http://9ls.com/collect-plus-returns-label-js/",
   "authors": [
@@ -16,9 +16,9 @@
     ".gitignore",
     "bower.json",
     "package.json",
-    "gulpfile.json",
-    "lib/*",
-    "src/*",
+    "gulpfile.js",
+    "lib",
+    "src",
     "test.html",
     "README.md",
     "LICENSE.md"
