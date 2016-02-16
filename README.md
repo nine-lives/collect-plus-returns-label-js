@@ -4,8 +4,8 @@
 
 Download:
  
-1. [The Collect+ returns label script](https://github.com/nine-lives/collect-plus-returns-label-js/releases/download/v1.1.0/collect-plus-returns-label.min.js) 
-1. [The JsBarcode combined script](https://github.com/lindell/JsBarcode/releases/download/1.6.1/JsBarcode.all.min.js)
+1. [The Collect+ returns label script](https://github.com/nine-lives/collect-plus-returns-label-js/releases) 
+1. [The JsBarcode combined script](https://github.com/lindell/JsBarcode/releases/tag/1.6.1)
 
 Or use bower:
 
@@ -17,9 +17,13 @@ Or use bower:
 Include the scripts:
 
 ```
+    <!-- if you use bower you will need to include JsBarcode.js and CODE128.js  -->
+    <!-- instead of JsBarcode.all.min.js                                        -->
     <script src="JsBarcode.all.min.js"></script>
     <script src="collect-plus-returns-label.min.js"></script>
 ```
+
+
 Add a print label button:
 
 ```
