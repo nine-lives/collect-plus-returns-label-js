@@ -1,0 +1,20 @@
+{
+  "name": "CollectPlusReturnsLabelJs",
+  "version": "1.0.20160216",
+  "main": "collect-plus-returns-label.js",
+  "homepage": "http://9ls.com/collect-plus-returns-label-js/",
+  "authors": [
+    "Marc G. Smith <marc.smith@9ls.com>"
+  ],
+  "description": "JS library to help generate / print Collect+ return labels",
+  "license": "MIT",
+  "dependencies": {
+    "JsBarcode": "~1.6.1"
+  },
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json",
+    "README.md"
+  ]
+}
