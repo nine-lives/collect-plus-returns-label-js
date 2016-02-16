@@ -3,7 +3,7 @@ function CollectPlusReturnsLabel(container, guid) {
     var _container = container;
     var _guid = guid;
     var debug = false;
-        
+
     var entityMap = {
         "&": "&amp;",
         "<": "&lt;",
@@ -69,19 +69,28 @@ function CollectPlusReturnsLabel(container, guid) {
         label += '<script>function printPage() { print(); }</script>';
 
         var ifrm = document.createElement("IFRAME");
+        ifrm.setAttribute('id', 'cp_' + _guid);
         ifrm.style.display = debug ? 'inline' : 'none';
-        _container.appendChild(ifrm);
+        document.body.appendChild(ifrm);
 
         ifrm = (ifrm.contentWindow) ? ifrm.contentWindow : (ifrm.contentDocument.document) ? ifrm.contentDocument.document : ifrm.contentDocument;
         ifrm.document.open();
         ifrm.document.write(label);
         ifrm.document.close();
 
+        var style = document.createElement('STYLE');
+        style.media = 'print';
+        style.type = "text/css";
+        style.innerText = '.cp_print_' + _guid + ' *{display:none} .cp_print_' + _guid + ' #cp_' + _guid + '{display:block !important;width:100%; height:210mm;border-width: 0;}';
+        document.body.appendChild(style);
+
         JsBarcode(ifrm.document.getElementById(_guid), barcode, {width: 2, height: 125});
         _container.addEventListener('click', function() {
-            //ifrm.document.execCommand('print', false, null);
+            var className = document.body.className;
+            document.body.className += ' cp_print_' + _guid;
             ifrm.focus();
             ifrm.printPage();
+            document.body.className = className;
             return false;
         });
     }
