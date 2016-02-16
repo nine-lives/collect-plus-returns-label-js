@@ -1,7 +1,7 @@
 {
   "name": "CollectPlusReturnsLabelJs",
-  "version": "1.1.1",
-  "main": "collect-plus-returns-label.js",
+  "version": "1.1.2",
+  "main": "dist/collect-plus-returns-label.js",
   "homepage": "http://9ls.com/collect-plus-returns-label-js/",
   "authors": [
     "Marc G. Smith <marc.smith@9ls.com>"
@@ -14,8 +14,13 @@
   "ignore": [
     ".bowerrc",
     ".gitignore",
-    "*.json",
+    "bower.json",
+    "package.json",
+    "gulpfile.json",
+    "lib/*",
+    "src/*",
+    "test.html",
     "README.md",
-    "lib/*"
+    "LICENSE.md"
   ]
 }
