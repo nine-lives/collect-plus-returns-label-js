@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "jsbarcode": "~1.6.1"
-  },
   "devDependencies": {
     "fs": "0.0.2",
     "gulp-clean": "^0.3.1",
