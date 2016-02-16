@@ -4,8 +4,15 @@
 
 Download:
  
-1. [The Collect+ returns label script](https://raw.githubusercontent.com/nine-lives/collect-plus-return-labels-js/master/collect-plus-returns-label.min.js) 
+1. [The Collect+ returns label script](https://github.com/nine-lives/collect-plus-returns-label-js/releases/download/v1.1.0/collect-plus-returns-label.min.js) 
 1. [The JsBarcode combined script](https://github.com/lindell/JsBarcode/releases/download/1.6.1/JsBarcode.all.min.js)
+
+Or use bower:
+
+```
+    bower install CollectPlusReturnsLabelJs
+```
+
 
 Include the scripts:
 
