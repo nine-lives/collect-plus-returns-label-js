@@ -81,7 +81,7 @@ The library will bootstrap any element with the class ```cp_returns_label```. Th
 
 ## And an example...
 
-... [can be found here](http://9ls.com/collect-plus-return-labels-js/)
+... [can be found here](http://9ls.com/collect-plus-returns-label-js/)
 
 
 
