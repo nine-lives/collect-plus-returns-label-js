@@ -9,7 +9,7 @@
   "description": "JS library to help generate / print Collect+ return labels",
   "license": "MIT",
   "dependencies": {
-    "JsBarcode": "~1.6.1"
+    "jsbarcode": "~1.6.1"
   },
   "ignore": [
     ".bowerrc",
