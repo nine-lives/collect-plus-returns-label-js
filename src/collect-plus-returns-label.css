@@ -1,0 +1,71 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+.cp_table {
+    margin:0 auto;
+    font-family: Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 144mm;
+}
+
+.cp_table td {
+    border: 2px solid black;
+    vertical-align: top;
+    padding: 8px;
+
+}
+.cp_details_container {
+    padding: 0 !important;
+}
+
+.cp_header {
+    line-height: 75px;
+    font-size: 1.3em;
+}
+
+.cp_header img {
+    float: right;
+}
+.cp_cell {
+    padding: 8px;
+    border-top: 2px solid black;
+}
+
+.cp_cell:first-of-type {
+    border-top-width: 0;
+}
+
+.cp_table label {
+    font-weight: 400;
+    font-size: 60%;
+    display: block;
+}
+
+.cp_details_container {
+    width: 40%;
+    display: table-cell;
+}
+
+.cp_address {
+    font-weight: 400;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.cp_center {
+    text-align: center;
+}
+
+.cp_postcode {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.cp_barcode {
+    width: 70mm;
+    height: 35mm;
+}
