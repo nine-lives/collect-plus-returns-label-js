@@ -1,0 +1,13 @@
+{
+  "name": "CollectPlusReturnsLabelJsExampl",
+  "main": "dist/collect-plus-returns-label.js",
+  "homepage": "http://9ls.com/collect-plus-returns-label-js/",
+  "authors": [
+    "Marc G. Smith <marc.smith@9ls.com>"
+  ],
+  "description": "JS library to help generate / print Collect+ return labels",
+  "license": "MIT",
+  "dependencies": {
+    "CollectPlusReturnsLabelJs": "~1.1.3"
+  }
+}
