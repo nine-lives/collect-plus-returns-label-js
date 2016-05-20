@@ -5,11 +5,17 @@
 
 .cp_table {
     margin:0 auto;
+    margin-top: 12px;
     font-family: Tahoma, sans-serif;
     font-size: 22px;
     font-weight: bold;
     border-collapse: collapse;
     width: 144mm;
+    page-break-after: always;
+}
+
+.cp_table:last-child {
+    page-break-after: avoid;
 }
 
 .cp_table td {
