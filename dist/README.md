@@ -1,3 +1,4 @@
+# Collect Plus API
 # Javascript Collect+ Returns Label Printer
  
 ## Getting started

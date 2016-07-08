@@ -86,6 +86,7 @@ function CollectPlusReturnsLabel(container, guid) {
         document.body.appendChild(style);
 
         for (var i = 0; i < sequences.length; ++i) {
+            var barcode = '8' + mattr('data-tac') + pad(sequences[i], 8) + 'A0' + mattr('data-depot-number');
             JsBarcode(ifrm.document.getElementById(_guid + '-' + i), barcode, {width: 2, height: 125});
         }
 
