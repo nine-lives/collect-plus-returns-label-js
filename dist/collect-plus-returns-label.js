@@ -68,10 +68,13 @@ function CollectPlusReturnsLabel(container, guid) {
             html += label;
         }
 
-
         var ifrm = document.createElement("IFRAME");
         ifrm.setAttribute('id', 'cp_' + _guid);
-        ifrm.style.display = 'none';
+        ifrm.style.width = 0;
+        ifrm.style.height = 0;
+        ifrm.style.borderWidth = 0;
+        ifrm.style.position = 'absolute';
+        ifrm.style.top = '-100px';
         document.body.appendChild(ifrm);
 
         ifrm = (ifrm.contentWindow) ? ifrm.contentWindow : (ifrm.contentDocument.document) ? ifrm.contentDocument.document : ifrm.contentDocument;
